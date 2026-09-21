@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Grid Example</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        @media (max-width: 991.98px) {
+            .navbar-nav {
+                flex-direction: row;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+            }
+
+            .navbar-nav .nav-item {
+                margin-left: 10px;
+            }
+
+            .navbar-nav .nav-link {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
+        nav {
+            background: lightgray;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 15px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">MyWebsite</a>
+
+        <!-- Hamburger Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="landing.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="features.html">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Header -->
+        <header class="row">
+            <div class="col-12">
+                <h1 class="text-center">Header</h1>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="row">
+
+            <main class="col-md-8">
+                <h2>Main Content</h2>
+                <p>This is the main content area.</p>
+            </main>
+
+            <aside class="col-md-4">
+                <h2>Sidebar</h2>
+                <p>This is the sidebar area.</p>
+            </aside>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <p>&copy; 2026 MyWebsite. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
